@@ -1,0 +1,55 @@
+baseURL: 'http://lars.engineer/'
+languageCode: 'en-us'
+title: "Lars's corner"
+theme: "papermod"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+    ShowBreadCrumbs: true
+
+    # ShowShareButtons: true 
+
+    # ShowReadingTime: true
+
+    # ShowPostNavLinks: true
+
+    homeInfoParams:
+        Title: "Hi there &#128075; I'm Lars"
+        Content: "I'm an AI & web3 enthousiast, currently building <a href=\"https://almanak.co\">Almanak</a>."
+
+    socialIcons: # optional
+        -   name: "twitter"
+            url: "https://twitter.com/0xLars_"
+        -   name: "github"
+            url: "https://github.com/lsuanet"
+        -   name: "telegram"
+            url: "https://t.me/lars0x"
+        -   name: "linkedin"
+            url: "https://www.linkedin.com/in/larssuanet/"
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Search
+                  url: /search
+                  weight: 10
+                - name: Garden
+                  url: garden/
+                  weight: 11
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
