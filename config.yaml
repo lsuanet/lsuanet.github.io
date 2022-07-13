@@ -19,7 +19,7 @@ params:
 
     homeInfoParams:
         Title: "Hi there &#128075; I'm Lars"
-        Content: "I'm an AI & web3 enthousiast, currently building <a href=\"https://almanak.co\">Almanak</a>."
+        Content: "I am an AI & web3 enthousiast, currently building <a href=\"https://almanak.co\">Almanak</a>."
 
     socialIcons: # optional
         -   name: "twitter"
