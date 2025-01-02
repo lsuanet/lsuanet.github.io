@@ -26,8 +26,8 @@ params:
             I am an AI & web3 enthousiast, currently building <a href="https://almanak.co">Almanak</a>.
 
     socialIcons: # optional
-        -   name: "twitter"
-            url: "https://twitter.com/0xLars_"
+        -   name: "x"
+            url: "https://x.com/0xLars_"
         -   name: "github"
             url: "https://github.com/lsuanet"
         -   name: "telegram"
